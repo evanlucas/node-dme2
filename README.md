@@ -39,6 +39,12 @@
 - SOA
 - Template
 - VanityDNS
+- AccountACL
+- Failover
+- Folder
+- IPSet
+- QueryUsage
+- SecondayDNS
 
 ### Notes
 All api calls require a callback that exposes the error (if any) and the data
@@ -47,15 +53,6 @@ ex.
 	function(err, data)
 
 To know exactly what parameters to pass in the data envelope, consult the DNSMadeEasy API V2.0 Documentation by going [here](http://www.dnsmadeeasy.com/wp-content/uploads/2012/09/API-Documentationv2.pdf)
-
-Still working on finishing the other submodules for it
-Currently lacks:
-- AccountACL
-- Failover
-- Folder
-- IPSet
-- QueryUsage
-- SecondaryDNS
 
 ### Todo
 - Provide significantly better documentation
