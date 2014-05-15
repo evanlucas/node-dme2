@@ -2,7 +2,7 @@
   "name": "dme2",
   "version": "0.0.2",
   "description": "This module allows one to connect to DNSMadeEasy's APIs (V2.0)",
-  "main": "dnsmadeeasy.js",
+  "main": "lib/dnsmadeeasy.js",
   "dependencies": {
     "crypto": "~0.0.3",
     "request": "~2.12.0"

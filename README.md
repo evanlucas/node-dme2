@@ -5,7 +5,7 @@
 
 - Import the module
 
-		var dme = require('dnsmadeeasy');
+		var dme = require('dme2');
 
 - Setup config
 
